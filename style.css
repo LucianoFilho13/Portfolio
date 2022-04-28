@@ -1,0 +1,93 @@
+body {
+    background-image:url(https://t3.ftcdn.net/jpg/03/23/88/08/360_F_323880864_TPsH5ropjEBo1ViILJmcFHJqsBzorxUB.jpg);
+}
+
+.rodapédecima {
+    background-color: rgba(0, 0, 255, 0.553);
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    font-family:'Segoe UI', Tahoma, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Verdana, sans-serif;
+    top: 0;
+    opacity: 1;
+    border: 3px solid blue;
+}
+
+.rodapédecima a{
+    opacity: 1;
+    color: #ff0000;
+}
+
+a:visited {
+    color: black;
+}
+
+.games {
+    /* background-color: #706e6e; */
+    display: flex;
+    flex-wrap: wrap;
+    height: 1000px;
+    padding: 20px;
+    -ms-text-size-adjust: auto;
+    justify-content: space-between;
+}
+
+#Item {
+    width: 200px;
+    height: 300px;
+    border: solid gray;
+    position: relative;
+}
+
+#Item h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+#Item:hover h2{
+    opacity: 1;
+    color: rgb(73, 93, 130);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#Item:hover{
+    background-color: aquamarine;
+}
+
+#Item:hover img{
+    opacity: 0.33;
+}
+
+#Caixinhaselecao {
+    width: 1000px;
+    height: 1000px;
+    background-color: #1C1C1C;
+    border: solid;
+}
+
+.Tudo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-family:'Segoe UI', Tahoma, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Verdana, sans-serif;
+    color: rgb(125, 125, 125);
+}
+
+#Botao {
+    width: 572px;
+    height: 90px;
+    border: 5px solid #363636;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Verdana, sans-serif;;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: DimGray;
+}
+
+#Botao:hover{
+    opacity: 0.33;
+}
